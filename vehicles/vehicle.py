@@ -6,12 +6,14 @@ class Vehicle():
         self.fuel_capacity = fuel_capacity
         self.make = make
         self.model = model
-        self.occupancy
+        self.occupancy = occupancy
 
         self.trips = []
 
     def refuel(self, amount):
         print("Vehicle refueled")
-        pass
+
+    def travel(self):
+        print("Vehicle travelled")
 
 
